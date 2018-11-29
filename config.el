@@ -136,6 +136,11 @@
      :desc "Peek definitions"      :nvm "pd" #'lsp-ui-peek-find-definitions
      :desc "Peek references"       :nvm "pi" #'lsp-ui-peek-find-implementation
      :desc "(Un)comment selection" :nvm "/"  #'comment-or-uncomment-region
+     :desc "(Un)comment line"      :nvm "l"  #'comment-line
+      )
+
+    (:desc "open" :prefix "f"
+     :desc "Safe file"       :nvm "s" #'save-buffer
       )
 
     (:desc "open" :prefix "o"
