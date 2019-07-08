@@ -14,7 +14,9 @@
       ns-use-proxy-icon nil ;; hide window title icon
       which-key-idle-delay 0.75 ;; delay for the keyboard shortcut helper
       display-line-numbers-type nil
-      doom-font (font-spec :family "Fira Code" :size 16))
+      doom-font (font-spec :family "Iosevka" :weight 'light :size 16))
+
+(load-theme 'doom-solarized-light t)
 
 ;; Highlight indentation configuration
 (def-package! highlight-indent-guides
@@ -26,6 +28,8 @@
         highlight-indent-guides-delay 0.01
         highlight-indent-guides-responsive 'top
         highlight-indent-guides-auto-enabled t))
+
+(def-package! tmux-pane)
 
 ;; Add groovy/Jenkinsfile support
 (def-package! groovy-mode)

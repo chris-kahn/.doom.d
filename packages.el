@@ -10,3 +10,4 @@
 (package! lsp-ui :recipe (:fetcher github :repo "emacs-lsp/lsp-ui"))
 (package! lsp-javascript-typescript :recipe (:fetcher github :repo "emacs-lsp/lsp-javascript"))
 (package! lsp-typescript :recipe (:fetcher github :repo "emacs-lsp/lsp-javascript"))
+(package! tmux-pane)
